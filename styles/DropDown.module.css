@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    font-weight: bold;
+    margin: 7px 0;
+}
+
+.container select {
+    height: 48px;
+    width: 361.76px;
+    margin-top: 7px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    border: solid var(--secondary-border-color) 2px;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
