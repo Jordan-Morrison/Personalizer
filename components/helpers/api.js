@@ -1,5 +1,5 @@
-const BaseURL = "http://localhost:3007";
-// const BaseURL = "http://was-personalizerapi-poc-02.azurewebsites.net";
+//const BaseURL = "http://localhost:3007";
+const BaseURL = "http://was-personalizerapi-poc-02.azurewebsites.net";
 
 export async function getRecommendations(province, month, language) {
     try {
