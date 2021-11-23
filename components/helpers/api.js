@@ -1,9 +1,6 @@
-//const BaseURL = "http://localhost:3007";
-const BaseURL = "http://was-personalizerapi-poc-02.azurewebsites.net";
-
 export async function getRecommendations(province, month, language) {
     try {
-        let response = await fetch(`${BaseURL}/api/v1/recommendation?province=${province.toLowerCase()}&month=${month.toLowerCase()}&language=${language.toLowerCase()}`);
+        let response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/recommendation?province=${province.toLowerCase()}&month=${month.toLowerCase()}&language=${language.toLowerCase()}`);
         response = await response.json();
         return response;
     } catch (error) {
@@ -25,7 +22,7 @@ export async function reward(eventId, errorCallback) {
     };
 
     try {
-        let response = await fetch(`${BaseURL}/api/v1/recommendation/reward`, apiOptions);
+        let response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/recommendation/reward`, apiOptions);
         response = await response.json();
         return response;
     } catch (error) {
