@@ -1,0 +1,18 @@
+.container {
+    height: 378px;
+    width: 266px;
+    border: solid var(--primary-border-color) 1px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.container img {
+    height: 185px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container h4 {
+    font-size: 24px;
+    margin: 10px 26px;
+}

@@ -1,0 +1,93 @@
+[
+    {
+        "name": {
+            "en": "Alberta",
+            "fr": "Alberta"
+        },
+        "short": "Alberta"
+    },
+    {
+        "name": {
+            "en": "British Columbia",
+            "fr": "Colombie-Britannique"
+        },
+        "short": "British Columbia"
+    },
+    {
+        "name": {
+            "en": "Manitoba",
+            "fr": "Manitoba"
+        },
+        "short": "Manitoba"
+    },
+    {
+        "name": {
+            "en": "New Brunswick",
+            "fr": "Nouveau-Brunswick"
+        },
+        "short": "New Brunswick"
+    },
+    {
+        "name": {
+            "en": "Newfoundland and Labrador",
+            "fr": "Terre-Neuve-et-Labrador"
+        },
+        "short": "Newfoundland and Labrador"
+    },
+    {
+        "name": {
+            "en": "Northwest Territories",
+            "fr": "Territoires du Nord-Ouest"
+        },
+        "short": "Northwest Territories"
+    },
+    {
+        "name": {
+            "en": "Nova Scotia",
+            "fr": "Nouvelle-Écosse"
+        },
+        "short": "Nova Scotia"
+    },
+    {
+        "name": {
+            "en": "Nunavut",
+            "fr": "Nunavut"
+        },
+        "short": "Nunavut"
+    },
+    {
+        "name": {
+            "en": "Ontario",
+            "fr": "Ontario"
+        },
+        "short": "Ontario"
+    },
+    {
+        "name": {
+            "en": "Prince Edward Island",
+            "fr": "Île-du-Prince-Édouard"
+        },
+        "short": "Prince Edward Island"
+    },
+    {
+        "name": {
+            "en": "Quebec",
+            "fr": "Québec"
+        },
+        "short": "Quebec"
+    },
+    {
+        "name": {
+            "en": "Saskatchewan",
+            "fr": "Saskatchewan"
+        },
+        "short": "Saskatchewan"
+    },
+    {
+        "name": {
+            "en": "Yukon",
+            "fr": "Yukon"
+        },
+        "short": "Yukon"
+    }
+]

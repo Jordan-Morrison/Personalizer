@@ -1,0 +1,37 @@
+.container div:first-of-type {
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-weight: bold;
+    margin: 14px 0;
+}
+
+.container input[type="radio"] {
+    display: none;
+}
+
+.container input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 38px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: var(--secondary-border-color);
+    cursor: pointer;
+}
+
+.container input[type="radio"]:checked + *::before {
+    background: radial-gradient(var(--secondary-foreground-color) 10%, var(--secondary-foreground-color) 55%, transparent 50%, transparent);
+    border-color: var(--secondary-border-color);
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

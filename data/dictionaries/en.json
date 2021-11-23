@@ -1,0 +1,16 @@
+{
+    "locale": "en",
+    "language": "English",
+    "meta": {
+        "title": "Personalizer",
+        "description": "The development of a proof-of-concept personalizer that takes unauthenticated data and provides a sorted list of related links to Service Canada Benefits."
+    },
+    "provinceSelectLabel": "If you are in the province of:",
+    "monthSelectLabel": "If you are in the month of:",
+    "languageSelectLabel": "Your preferred language is in:",
+    "errorMessage": "*Something went wrong. Please try again later.",
+    "refreshButton": "REFRESH LINKS",
+    "howToText": "To see how these services would be different if you were to arrive from a different province, time of year, or in a different language, change the above settings and click refresh",
+    "resultsTitle": "Top Service Canada services in",
+    "moreResultsTitle": "Additional Service Canada services in"
+}

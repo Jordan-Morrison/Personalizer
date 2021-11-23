@@ -1,0 +1,112 @@
+[
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/revenue-agency/services/indigenous-peoples.html",
+            "fr": "https://www.canada.ca/fr/agence-revenu/services/autochtones.html"
+        },
+        "title": {
+            "en": "Taxes and benefits for Indigenous peoples",
+            "fr": "Impôts et prestations : peuples autochtones"
+        },
+        "image": "taxesAndBenefitsForIndigenousPeoples.png"
+    },
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/employment-social-development/programs/ei/ei-list/quit-job.html",
+            "fr": "https://www.canada.ca/fr/emploi-developpement-social/programmes/assurance-emploi/ae-liste/quittez-emploi.html"
+        },
+        "title": {
+            "en": "Employment insurance",
+            "fr": "Assurance-emploi"
+        },
+        "image": "employmentInsurance.png"
+    },
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/employment-social-development/services/apprentices/grants.html",
+            "fr": "https://www.canada.ca/fr/emploi-developpement-social/services/apprentis/subventions.html"
+        },
+        "title": {
+            "en": "Apprenticeship grants",
+            "fr": "Subventions aux apprentis"
+        },
+        "image": "apprenticeshipGrants.png"
+    },
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/services/benefits/ei/ei-military-families.html",
+            "fr": "https://www.canada.ca/fr/services/prestations/ae/assurance-emploi-familles-militaires.html"
+        },
+        "title": {
+            "en": "Extended parental benefit period for military families",
+            "fr": "Prolongation de la période de prestations parentales pour les familles militaires"
+        },
+        "image": "extendedParentalEmployment.png"
+    },
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/guaranteed-income-supplement.html",
+            "fr": "https://www.canada.ca/fr/services/prestations/pensionspubliques/rpc/securite-vieillesse/supplement-revenu-garanti.html"
+        },
+        "title": {
+            "en": "Guaranteed income supplement",
+            "fr": "Supplément de revenu garanti"
+        },
+        "image": "guaranteedIncomeSupplement.png"
+    },
+    {
+        "url": {
+            "en": "https://www.nrcan.gc.ca/energy-efficiency/homes/canada-greener-homes-grant/23441",
+            "fr": "https://www.rncan.gc.ca/efficacite-energetique/efficacite-energetique-maisons/subvention-canadienne-pour-des-maisons-plus-vertes/23445?_ga=2.255738816.910242886.1637092925-1192536157.1637092925"
+        },
+        "title": {
+            "en": "Canada Greener Homes Grant",
+            "fr": "Subvention canadienne pour des maisons plus vertes"
+        },
+        "image": "canadaGreenerHomesGrant.png"
+    },
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/services/benefits/ei/ei-maternity-parental.html",
+            "fr": "https://www.canada.ca/fr/services/prestations/ae/assurance-emploi-maternite-parentales.html"
+        },
+        "title": {
+            "en": "Maternity and parental leave",
+            "fr": "Congé de maternité et parental"
+        },
+        "image": "maternityAndParentalBenefits.png"
+    },
+    {
+        "url": {
+            "en": "https://www.justice.gc.ca/eng/fund-fina/acf-fca/lsap-aeda.html",
+            "fr": "https://www.justice.gc.ca/fra/fina-fund/fca-acf/aeda-lsap.html"
+        },
+        "title": {
+            "en": "Legal studies for Aboriginal people",
+            "fr": "Études juridiques pour les autochtones"
+        },
+        "image": "legalStudiesForAboriginalPeople.png"
+    },
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/services/benefits/education/student-aid/grants-loans.html",
+            "fr": "https://www.canada.ca/fr/services/prestations/education/aide-etudiants/bourses-prets.html"
+        },
+        "title": {
+            "en": "Canada Student Loans",
+            "fr": "Prêts d'études canadiens"
+        },
+        "image": "canadaStudentLoans.png"
+    },
+    {
+        "url": {
+            "en": "https://www.canada.ca/en/revenue-agency/services/subsidy/recovery-hiring-program.html",
+            "fr": "https://www.canada.ca/fr/agence-revenu/services/subvention/programme-embauche-relance.html"
+        },
+        "title": {
+            "en": "Canada recovery hiring program",
+            "fr": "Programme d'embauche pour la relance économique du Canada "
+        },
+        "image": "canadaRecoveryHiringProgram.png"
+    }
+]
