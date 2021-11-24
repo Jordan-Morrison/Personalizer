@@ -4,6 +4,7 @@
     border: solid var(--primary-border-color) 1px;
     margin-right: 32px;
     margin-bottom: 32px;
+    cursor: pointer;
 }
 
 .container img {
