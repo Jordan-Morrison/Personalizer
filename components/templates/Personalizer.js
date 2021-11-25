@@ -15,12 +15,14 @@ import styles from '../../styles/Personalizer.module.css';
 
 export default function Personalizer(props) {
 
-    const [province, setProvince] = useState(props.t.locale === "en" ? "Ontario" : "Quebec");
+    const [province, setProvince] = useState(props.t.locale === "en" ? "ontario" : "quebec");
     const [month, setMonth] = useState(moment().format("MMMM"));
     const [language, setLanguage] = useState(props.t.language);
     const [loading, setLoading] = useState(false);
     const [results, setResults] = useState(null);
     const [errorFlag, setErrorFlag] = useState(false);
+
+    const provinceName = Provinces.find(element => element.short === province).name[props.t.locale];
 
     async function getResults() {
         setLoading(true);
@@ -83,13 +85,13 @@ export default function Personalizer(props) {
             {results &&
                 <React.Fragment>
                     <p>{props.t.howToText}</p>
-                    <h3>{props.t.resultsTitle} {province}, {month}, {language}</h3>
+                    <h3>{props.t.resultsTitle} {provinceName}, {month}, {language}</h3>
                     <div className={styles.searchResults}>
                         {results.rankings.slice(0, 4).map((result) =>
                             <Card key={result.id} t={props.t} eventId={result.id === results.recommendation ? results.eventId : null} url={result.id}/>
                         )}
                     </div>
-                    <h5>{props.t.moreResultsTitle} {province}, {month}, {language}</h5>
+                    <h5>{props.t.moreResultsTitle} {provinceName}, {month}, {language}</h5>
                     <ul>
                         {results.rankings.slice(4, results.rankings.length).map((result) =>
                             <li key={result.id}>
