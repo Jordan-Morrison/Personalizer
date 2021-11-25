@@ -91,7 +91,7 @@ export default function Personalizer(props) {
                             <Card key={result.id} t={props.t} eventId={result.id === results.recommendation ? results.eventId : null} url={result.id}/>
                         )}
                     </div>
-                    <h5>{props.t.moreResultsTitle} {province}, {month}, {language}</h5>
+                    <h5>{props.t.moreResultsTitle} {provinceName}, {month}, {language}</h5>
                     <ul>
                         {results.rankings.slice(4, results.rankings.length).map((result) =>
                             <li key={result.id}>
