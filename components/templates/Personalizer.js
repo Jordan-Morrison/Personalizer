@@ -15,7 +15,7 @@ import styles from '../../styles/Personalizer.module.css';
 
 export default function Personalizer(props) {
 
-    const [province, setProvince] = useState(props.t.locale === "en" ? "Ontario" : "Quebec");
+    const [province, setProvince] = useState(props.t.locale === "en" ? "ontario" : "quebec");
     const [month, setMonth] = useState(moment().format("MMMM"));
     const [language, setLanguage] = useState(props.t.language);
     const [loading, setLoading] = useState(false);

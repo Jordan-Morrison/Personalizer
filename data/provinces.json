@@ -4,90 +4,90 @@
             "en": "Alberta",
             "fr": "Alberta"
         },
-        "short": "Alberta"
+        "short": "alberta"
     },
     {
         "name": {
             "en": "British Columbia",
             "fr": "Colombie-Britannique"
         },
-        "short": "British Columbia"
+        "short": "britishcolumbia"
     },
     {
         "name": {
             "en": "Manitoba",
             "fr": "Manitoba"
         },
-        "short": "Manitoba"
+        "short": "manitoba"
     },
     {
         "name": {
             "en": "New Brunswick",
             "fr": "Nouveau-Brunswick"
         },
-        "short": "New Brunswick"
+        "short": "newbrunswick"
     },
     {
         "name": {
             "en": "Newfoundland and Labrador",
             "fr": "Terre-Neuve-et-Labrador"
         },
-        "short": "NewfoundlandandLabrador"
+        "short": "newfoundlandandlabrador"
     },
     {
         "name": {
             "en": "Northwest Territories",
             "fr": "Territoires du Nord-Ouest"
         },
-        "short": "Northwest Territories"
+        "short": "northwestterritories"
     },
     {
         "name": {
             "en": "Nova Scotia",
             "fr": "Nouvelle-Écosse"
         },
-        "short": "Nova Scotia"
+        "short": "novascotia"
     },
     {
         "name": {
             "en": "Nunavut",
             "fr": "Nunavut"
         },
-        "short": "Nunavut"
+        "short": "nunavut"
     },
     {
         "name": {
             "en": "Ontario",
             "fr": "Ontario"
         },
-        "short": "Ontario"
+        "short": "ontario"
     },
     {
         "name": {
             "en": "Prince Edward Island",
             "fr": "Île-du-Prince-Édouard"
         },
-        "short": "Prince Edward Island"
+        "short": "princeedwardisland"
     },
     {
         "name": {
             "en": "Quebec",
             "fr": "Québec"
         },
-        "short": "Quebec"
+        "short": "quebec"
     },
     {
         "name": {
             "en": "Saskatchewan",
             "fr": "Saskatchewan"
         },
-        "short": "Saskatchewan"
+        "short": "saskatchewan"
     },
     {
         "name": {
             "en": "Yukon",
             "fr": "Yukon"
         },
-        "short": "Yukon"
+        "short": "yukon"
     }
 ]
