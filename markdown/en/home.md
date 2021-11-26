@@ -13,4 +13,4 @@
 
 ## How does it work?
 
-**What to do to make this personalizer/customizer work?** Upon your arrival on this page, the personalizer took your analytics information and performed an assessment of what links you might be interested in visiting next based on the province of your IP, the current month, and the page language. To see how these links would be different if you were a member of a different group of visitors, change the settings in the menus below, then click 'refresh'.
+**What to do to make this personalizer/customizer work?** Upon your arrival on this page, the personalizer took your analytics information and performed an assessment of what links you might be interested in visiting next based on the province of your IP, the current month, and the page language. To see how these links would be different if you were a member of a different group of visitors, change the settings in the menus below.

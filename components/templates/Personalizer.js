@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
 import moment from 'moment';
@@ -21,6 +21,10 @@ export default function Personalizer(props) {
     const [loading, setLoading] = useState(false);
     const [results, setResults] = useState(null);
     const [errorFlag, setErrorFlag] = useState(false);
+
+    useEffect(() => {
+        getResults();
+    },[province, month, language])
 
     const provinceName = Provinces.find(element => element.short === province).name[props.t.locale];
 
@@ -76,7 +80,6 @@ export default function Personalizer(props) {
             {errorFlag &&
                 <p className={styles.errorMessage}>{props.t.errorMessage}</p>
             }
-            <button className={styles.refreshButton} onClick={getResults}>{props.t.refreshButton}</button>
             {loading &&
                 <div className={styles.loader}>
                     <Oval/>
@@ -84,7 +87,6 @@ export default function Personalizer(props) {
             }
             {results &&
                 <React.Fragment>
-                    <p>{props.t.howToText}</p>
                     <h3>{props.t.resultsTitle} {provinceName}, {month}, {language}</h3>
                     <div className={styles.searchResults}>
                         {results.rankings.slice(0, 4).map((result) =>
